@@ -56,6 +56,8 @@ gulp.task('js:package-json', callback => {
 		if(packageJson[propertyName]) delete(packageJson[propertyName]);
 	}
 
+	packageJson.main = 'event.js';
+
 	fs.writeFile(
 		'./dist/package.json',
 		JSON.stringify(packageJson),
