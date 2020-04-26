@@ -1,0 +1,19 @@
+# System Files
+*.DS_Store
+.idea
+.vscode
+
+
+# NPM
+node_modules
+npm-debug.log
+
+
+# MISC
+dist
+test
+vendor
+temp
+tmp
+package-lock.json
+s
