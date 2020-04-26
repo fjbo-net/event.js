@@ -1,5 +1,6 @@
 (function(){
 	if(!window.FJBO) window.FJBO = {};
+	if(window.FJBO.EventJs) return;
 
 	let EventJs = function() {
 		if(!EventJs.prototype.instance) EventJs.prototype.instance = this;
